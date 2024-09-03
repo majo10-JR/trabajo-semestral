@@ -10,7 +10,7 @@ En los últimos años, la contaminación plástica se ha convertido en una de la
 
 Con nuestra investigación, queremos demostrar que las medidas implementadas por parte de organizaciones internacionales han resultado en una disminución de la cantidad de plástico en los océanos.
 
-## Antecedentes:
+## Antecedentes
 
 **¿Qué tipos de datos investigan?**
 
@@ -53,7 +53,7 @@ Para tener una mayor claridad sobre el tema es necesario abordarlo desde todas s
 
 - [Greenpeace](https://es.greenpeace.org/es/trabajamos-en/consumismo/plasticos/como-llega-el-plastico-a-los-oceanos-y-que-sucede-entonces/)
 
-- [The Sea Cleaners](​​https://www.theseacleaners.org/es/contaminacion-por-plasticos/)
+-[The SeaCleaners](​​https://www.theseacleaners.org/es/contaminacion-por-plasticos/)
 
 
  **¿Qué datos no existen y cómo los obtendrá?**
