@@ -53,7 +53,7 @@ Para tener una mayor claridad sobre el tema es necesario abordarlo desde todas s
 
 - [Greenpeace](https://es.greenpeace.org/es/trabajamos-en/consumismo/plasticos/como-llega-el-plastico-a-los-oceanos-y-que-sucede-entonces/)
 
--[The SeaCleaners](​​https://www.theseacleaners.org/es/contaminacion-por-plasticos/)
+- [The SeaCleaners](​​https://www.theseacleaners.org/es/contaminacion-por-plasticos/)
 
 
  **¿Qué datos no existen y cómo los obtendrá?**
