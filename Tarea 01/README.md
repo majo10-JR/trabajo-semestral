@@ -101,7 +101,7 @@ Lo que buscamos con los elementos incluidos, es que den un aporte significativo 
 
 - [Greenpeace](https://es.greenpeace.org/es/trabajamos-en/consumismo/plasticos/como-llega-el-plastico-a-los-oceanos-y-que-sucede-entonces/)
 
-- [The Sea Cleaners](​​https://www.theseacleaners.org/es/contaminacion-por-plasticos/)
+- [The Sea Cleaners](https://www.theseacleaners.org/es/contaminacion-por-plasticos/)
 
 - [ONU](https://www.unep.org/es/noticias-y-reportajes/comunicado-de-prensa/informe-de-la-onu-sobre-contaminacion-por-plasticos)
 
