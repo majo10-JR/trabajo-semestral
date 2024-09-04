@@ -1,3 +1,0 @@
-# trabajo-semestral
-
-hola
