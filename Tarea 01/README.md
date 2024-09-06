@@ -108,6 +108,6 @@ Lo que buscamos con los elementos incluidos, es que den un aporte significativo 
 ## Presentación
 Aquí se encuentra el [link](https://www.youtube.com/watch?v=cL5JCQaNhUU) al video de presentación de nuestro proyecto.
 
-Les compartimos nuestro archivo de la [presentación del proyecto](https://www.canva.com/design/DAGPvIcUvMs/MZedUZei7t09Spo9IUiF3A/edit?utm_content=DAGPvIcUvMs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Les compartimos nuestro archivo carrusel de la [presentación del proyecto](https://www.canva.com/design/DAGPvIcUvMs/MZedUZei7t09Spo9IUiF3A/edit?utm_content=DAGPvIcUvMs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
