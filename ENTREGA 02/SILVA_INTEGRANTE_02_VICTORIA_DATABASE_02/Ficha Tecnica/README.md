@@ -34,4 +34,5 @@ Con estos datos se busca medir el manejo de los diferentes países respecto a lo
                  
 - **En cuanto a las observaciones**, la base de datos nos ofrece una increible variedad de países lo cual nos permite analizar de forma mas amplia los riegsos que conlleva no poder manejar bien los residuos plásticos.
 
-    Se debe tener en cuenta que cada país maneja de diferente manera sus residuos plásticos y que claramente tienen impactos diferentes en el medio ambiente.
+    Se debe tener en cuenta que cada país maneja de diferente manera sus residuos plásticos y que claramente tienen impactos diferentes en el medio ambiente. Como por ejemplo Algeria tienen un porcenatje muyy alto de reisduos plásticos mal gestioandos
+(1,23%), mientras que otros países como es el caso de Antigua y Barbuda tienen un procentaje bajo (0,001%). Lo que nos invita a reflexionar y a tener mayor interés en el tema por sobre como es el manejo de cada país.
