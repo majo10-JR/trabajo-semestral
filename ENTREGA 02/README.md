@@ -3,9 +3,8 @@
 
 Hola somos María José Jiménez, Victoria Silva y Blanca Ward.
 
-Decidimos.....................................
-- Información general de la entrega
+Acaba va nuestra entrega sobre la emsión de plásticos en distintas regiones y países. 
 
-[VIDEO](aqui va el link )
+[VIDEO]( https://www.youtube.com/watch?v=fAd_3jQChUg)
 
-CARRUSEL
+[CARRUSEL](https://www.canva.com/design/DAGTQzpiReM/uwTKwiDrClOv4lM8HjWvlQ/edit?utm_content=DAGTQzpiReM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton )
