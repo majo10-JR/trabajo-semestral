@@ -1,22 +1,11 @@
-<<<<<<< HEAD
-# Ficha Tecnica 
-Características de los datos: En esta base tenemos datos cuantitativos.
 
-Alcance metodológico: Estos datos 
-Las variables que tenemos son: los plásticos emitidos al océano mundialmente (%), 
-Plásticos emitidos al océano per capita (Kg por año) y el PIB per capita.
-
-En cuanto a las observaciones, si bien es bastante sencilla la base de datos, nos sirve para identificar a nivel global la cantidad de plasticos emitidos por cada pais.
-Al mismo tiempo, queremos intentar ver si existe una relación entre la emisión del plastico y el ingreso por persona, para si poder establecer o una relación entre ambas.
-=======
 # Ficha Técnica 
-- **Características de los datos:** Tenemos 163 registros (países) y 5 variables en esta base de tipo cuantitativos.
+- **Características de los datos:** Contamos con 164 filas de países y 5 variables las cuales nos muestran los residuos plásticos mal gestionados durante el 2019 y la probabilidad de que aquellos terminen en el océano. 
 
 - **Alcance metodológico:** 
-Con estos datos se busca medir la cantidad de plásticos emitidos por país al océano, tanto en términos globales como per cápita, y relacionar estos valores con el PIB per cápita de cada país.
+Con estos datos se busca medir el manejo de los diferentes países respecto a los residuos plásticos y como aquello puede contirubuir a un aumento o disminución del plástico en los océanos.
 
-    Además, se representa una muestra global de países, cubriendo diferentes niveles de desarrollo económico y contribución a la contaminación plástica. Los datos fueron recopilados a través de estudios sobre contaminación marina y su relación con la economia de cada país.
-
+    Se ven grandes diferencias entre los países analizados, algunos manejan mucho peor sus residuos plásticos que otros y esto auemmta el riesgo de contaminación en los océanos.
 - **Variables incorporadas:**        
 
  <table>
@@ -27,27 +16,22 @@ Con estos datos se busca medir la cantidad de plásticos emitidos por país al o
   <tr>
     <td>País</td>
     <td>Nombre del país al que se refieren los datos.</td>
+  
+  <tr>
+    <td>Año</td>
+    <td> 2019, año en cuanto se hizo el analisis</td>
   </tr>
   <tr>
-    <td>Sigla</td>
-    <td>Código ISO de tres letras que representa a cada país.</td>
+    <td> Proporción de residuos plásticos mal gestionados a nivel mundial</td> 
+    <td>Contribución de cada país a los reisduos plásticos mal gestionados. Se puede ver que en promedio los países analizados constribuyen con un 0.61% de los residuos plásticos mal gestioandos, aunque la cifra varía mucho, pues algunos paises tienen una participación muy baja, mientras otros constriubyen significativamente más al problema.</td>
   </tr>
   <tr>
-    <td>Plásticos emitidos al océano mundialmente (%)</td>
-    <td>Porcentaje del total mundial de plásticos emitidos al océano que proviene de cada país.</td>
-  </tr>
-  <tr>
-    <td>Plásticos emitidos al océano per capita (Kg por año)</td>
-    <td>Cantidad de plásticos emitidos por persona al océano en cada país (kilogramos por año).</td>
-  </tr>
-  <tr>
-    <td>PIB per capita</td>
-    <td>Producto Interno Bruto per cápita del país, expresado en dólares internacionales ajustados a paridad de poder adquisitivo (PPA).</td>
+    <td>Probabilidad de que se arroje plástico al océano</td>
+    <td>Riesgo de que los plásticos terminen en el océano. En promedio hay un 1.75% de probabilidad de que los plásticos terminen en el océano, aunque denuevo este número varía mucho según el país. </td>
   </tr>
 </table>
 
                  
-- **En cuanto a las observaciones**, si bien es bastante sencilla la base de datos, nos sirve para identificar a nivel global la cantidad de plasticos emitidos por cada pais.
+- **En cuanto a las observaciones**, la base de datos nos ofrece una increible variedad de países lo cual nos permite analizar de forma mas amplia los riegsos que conlleva no poder manejar bien los residuos plásticos.
 
-    Al mismo tiempo, queremos intentar ver si existe una relación entre la emisión del plastico y el ingreso por persona, para si poder establecer o una relación entre ambas. En cuanto a una liminatción podría ser que algunos países o zonas tenían datos faltantes, por lo que en esos casos, podría afectar la comparación de ellos.
->>>>>>> 66dc81413c3c045118a8fadfa988d3323ef732d3
+    Se debe tener en cuenta que cada país maneja de diferente manera sus residuos plásticos y que claramente tienen impactos diferentes en el medio ambiente.
