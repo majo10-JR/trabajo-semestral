@@ -3,11 +3,13 @@
 - **Características de los datos:** Tenemos 5 regiones y 10 variables en esta base de tipo cuantitativos.  
 
 - **Regiones cubiertas**: Asia Oriental y el Pacífico, Asia del Sur, Latinoamérica y el Caribe, África Subsahariana, Norte de África y Medio Oriente.
-- **Productos**: Diversos tipos de productos plásticos utilizados, como tapas de botellas, contenedores de comida, envoltorios, entre otros. (explica con tus palabras)
+- **Productos**: Diversos tipos de productos plásticos utilizados, como tapas de botellas, contenedores de comida, envoltorios, productos relacionados con la pesca, botellas plasticas, bolsas, cuerdas sinteticas, entre otros. 
 
 - **Alcance metodológico:** 
-Con estos datos se busca medir los diferentes pásticos que podemos encontrar en los oceanos, para así analizar el impacto de las medidas por parte de ONG, personalizadas sobre estos. Por ejemplo bolsas de basura o bombillas plásticas. 
-- **Objetivo**: Evaluar la presencia de productos plásticos en diferentes regiones geográficas, para ver cuales son los que más contaminan
+Con estos datos se busca medir los diferentes pásticos que podemos encontrar en los oceanos, para así analizar el impacto de las medidas por parte de ONG, personalizadas sobre estos. Por ejemplo bolsas de basura o bombillas plásticas. Con estos datos, podemos ver que tipo de plastico es el que mas se encuentra depositao en los oceanos, para asi, poder analizar las medidas especificas por plástico. 
+
+- **Objetivo**: Evaluar la presencia de productos plásticos en diferentes regiones geográficas, para ver cuales son los que más contaminan. De esa forma, podemos conocer que productos de plástico son los que podemos encontrar depositados en los oceanos, par asi hacer un analisis mas completo sobre las edidas iplementadas tanto por leyes como ONG.
+
 - **Metodología**: Datos numéricos que reflejan la cantidad relativa de ciertos productos plásticos en diversas regiones del mundo.
 
 - **Variables incorporadas:**        
