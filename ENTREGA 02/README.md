@@ -3,7 +3,7 @@
 
 Hola somos María José Jiménez, Victoria Silva y Blanca Ward.
 
-Acaba va nuestra entrega sobre la emsión de plásticos en distintas regiones y países. 
+Acaba va nuestra entrega sobre la emisión de plásticos en distintas regiones y países. 
 
 [VIDEO]( https://www.youtube.com/watch?v=fAd_3jQChUg)
 
