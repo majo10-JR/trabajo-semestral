@@ -3,8 +3,10 @@
 
 Hola somos María José Jiménez, Victoria Silva y Blanca Ward.
 
-En terminos generales, buscamos bases de datos de diferentes ONG que protegen el medio ambiente y no encontramos suficientes bases de datos sobre plásticos en los océanos.
-Para un mejor análisis buscamos las bases de datos de emisión de plásticos que fueran más pertinenetes y en dos casos, unificamos la información de distintas fuentes. Para luego eliminar los datos irrelevantes y nulos de las tablas.
+En terminos generales, buscamos bases de datos de diferentes ONG que protegen el medio ambiente y no encontramos suficientes bases sobre plásticos en los océanos.
+Por esta razó, para obtener un mejor análisis buscamos las bases de datos de emisión de plásticos que fueran más pertinenetes y en dos casos, unificamos la información de distintas fuentes. Para luego eliminar los datos irrelevantes y nulos de las tablas.
+
+Tras ello, planteamos una nueva hipótesis, donde evaluaremos si las distintas iniciativas implementadas por organizaciones internacionales o leyes, han sido efectivas en la reducción del plástico en los océanos.  
 
 Acaba va nuestra entrega sobre la emisión de plásticos en distintas regiones y países. 
 
