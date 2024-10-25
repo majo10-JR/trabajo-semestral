@@ -1,7 +1,7 @@
 # ENTREGA 03
 **Perfilamiento de usuarios:**
 
-Diseñamos tres perfiles de usuarios distintos y luego seleccionamos el usuario de María para hacer el User Journey Map.
+Diseñamos tres perfiles de usuarios distintos y luego seleccionamos el usuario de María para hacer el User Journey Map. Donde explicamos los seis pasos a seguir que tiene la usuaria al interactuar en nuestro prototipo de sitio.
 
 **Creación de identidad visual:**
 - Naming: “Ocean Guard”, lo eleguimos porque queríamos representar algo relacionado con la protección y a la responsabilidad. Va dirigido a los usuarios activistas y a las personas conscientes, destacando así la necesidad de proteger el plástico de los océanos. 
@@ -10,7 +10,7 @@ Diseñamos tres perfiles de usuarios distintos y luego seleccionamos el usuario 
 - Paleta de colores: decidimos utilizar la paleta de colores, ya que los colores celestes ejemplifican a los océanos y las tonalidades naranjas representan los plásticos que contaminan. Además, al ser colores opuestos, logran llamar la atención y complementarse.
 
 
-**Prototipo:** este lo diseñamos en canva e intentamos realizar un esqueleto que luego le agregaremos los elementos de nuestra identidad visual.
+**Prototipo:** este lo diseñamos en canva e intentamos realizar un esqueleto que luego le agregaremos los elementos de nuestra identidad visual. Lo diseñamos, pensando en que es fundamental generar un equilibrio entre textos y elementos visuales, como gráficos y otras imágenes. Y a la vez que fuera sencillo de usar y sobretodo muy intuitivo para el perfil de usario al que esta destinado, que si bien tienen un conocimiento medio-avanzado de la tecnología, este debe ser visualmente y tecnicamente atractivo y con una interfaz sencilla.
 
 
 **Antecedentes y referentes visuales:**
