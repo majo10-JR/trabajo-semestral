@@ -1,7 +1,9 @@
 # ENTREGA 03
 **Perfilamiento de usuarios:**
 
-Diseñamos tres perfiles de usuarios distintos y luego seleccionamos el usuario de María para hacer el User Journey Map. Donde explicamos los seis pasos a seguir que tiene la usuaria al interactuar en nuestro prototipo de sitio.
+Diseñamos tres perfiles de usuarios distintos, que fueran acordes a nuestra temática sobre la contaminación de los océanos con plásticos, en primer lugar; **María** quien es activista ambiental, está en busca de una webstory para obtener datos sobre la efectividad de las leyes y evidencia de que los esfuerzos internacionales están en funcionamiento. En segundo lugar, **Juan** invesitigador universitario, esta en busca de datos informativos, que respalden sus estudios para así publicarlos. Finalmente, **Laura** una estudiante universitaria quien es una consumidora conciente con el planeta, por lo que busca información y testimonios para poder cambiar sus hábitos de consumo y  para su contribución con los océanos. 
+
+Luego de crear los tres perfiles de ususarios, seleccionamos el usuario de María para hacer el **User Journey Map**. Donde explicamos los seis pasos a seguir que tiene la usuaria al interactuar en nuestro prototipo de sitio. Con este mapa se busca retratar las etapas que atraviesa María en su interacción con la webstory, desde el descubrimiento hasta el recompromiso.
 
 **Creación de identidad visual:**
 - Naming: “Ocean Guard”, lo eleguimos porque queríamos representar algo relacionado con la protección y a la responsabilidad. Va dirigido a los usuarios activistas y a las personas conscientes, destacando así la necesidad de proteger el plástico de los océanos. 
