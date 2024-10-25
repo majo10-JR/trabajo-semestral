@@ -1,1 +1,9 @@
 # ANALISIS CRÍTICO
+
+**Aprendizajes**: Uno de los principales aprendizajes de todo este proceso fue la gran importancia de tener todo ordenado y claro. Se nos hizo muy difícil la elección de la paleta de colores y de la tipografía, queríamos que fuera perfecto y calza muy bien con nuestro tema, el plástico en los océanos. También aprendí mucho con el tema del wireframe, me costaba que se atan básico y sin tanta cosa, pero se logró y creo que pudimos definir bien como queríamos distribuir la información dentro de la página, aunque seguramente en un futuro cambiemos la estructura.
+
+**Proyecciones**: Viendo el tema de la identidad visual queremos que nuestra página sea reconocida por que se relaciona mucho con el mar, poder resaltar bien los colores que escogimos, saber jugar con la paleta de colores y la tipografía. Las tipografías que escogimos van a ser aplicadas a la página web dependiendo de sin son títulos o subtítulos. Por otro lado uno de los desafíos va a ser integrar de manera correcta el logo y los gráficos interactivos que usaremos. 
+
+**Limitaciones**: De acuerdo a las limitaciones yo creo que el construir la webstory fue uno de ellos, el mantener todo ordenado y saber cómo hacerlo fue limitante. Yo quería agregar varias cosas y ponerle harto color y fotos, pero la idea no era hacerlo así por lo que eso me costó. Queremos simplificar todo el proceso y crear algo simple y minimalista así que evitar el uso excesivo de elementos va a tener que ser algo clave. 
+
+Esta entrega fue todo un desafío, se veía fácil pero nos tomó mucho tiempo y dedicación, pero a la vez fue la más entretenida, me gusta mucho el tema de crear, poder jugar con los colores y tipografías como también el tema de crear el logo. Espero que nuestro proyecto funcione bien y podamos seguir aprendiendo nuevas funciones. 
