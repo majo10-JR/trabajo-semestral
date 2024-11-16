@@ -18,4 +18,4 @@ Impacto global de Latinoamérica: Enfatizando cómo, a pesar de los esfuerzos in
 Lecciones de California: Refleja cómo, incluso con leyes de prohibición, el aumento de desechos sigue siendo un problema sin un cambio de comportamiento adecuado.
 Llamado a la acción regional: Enfatizando la necesidad de políticas coordinadas y un cambio de mentalidad en los consumidores.
 
-[tortuga](torturga.jpeg.jpg)
+[tortuga](visualización/torturga.jpeg)
