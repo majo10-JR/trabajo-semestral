@@ -31,7 +31,7 @@
   <tr>
    
    <td>Botellas de plástico</td>
-  <td>Cantidad de botellas de vidrio encontradas por región 
+  <td>Cantidad de botellas de plástico encontradas por región 
   </tr> 
   </tr>
     <td>Botellas de vidrio</td>
