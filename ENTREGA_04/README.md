@@ -11,7 +11,7 @@ Luego teníamos que buscar información en base a los distintos tipos de plásti
 
 Utilizamos Canva para mostrar los gráficos creados y reflexionar en base a la información que encontramos. La idea es que en los proyectos futuros podamos dar a conocer toda la información y mostrar datos duros sobre las soluciones que se han ido relaizando a los largo de los años.
 
-Link Canva: https://www.canva.com/design/DAGWj13Cras/sEe_QsJbV8Azc9uiCBF-fQ/edit
+[Link Canva](https://www.canva.com/design/DAGWj13Cras/sEe_QsJbV8Azc9uiCBF-fQ/edit)
 
-Link Yutube: https://youtu.be/fpvpmOCpkJM
+[Link Yutube](https://youtu.be/fpvpmOCpkJM)
 
