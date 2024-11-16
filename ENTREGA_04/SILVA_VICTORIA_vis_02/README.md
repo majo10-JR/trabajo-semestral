@@ -1,7 +1,7 @@
 # Limpieza de datos
 Nombre: Victoria Silva
 
-**Base de datos utilizada** La base de datos utilizada para esta entrega fue la que utilizo Blanca Ward en la entrega pasada. Ella se encrago de limpirala y ordenarla. Decidimos utilizar esta ya que era la que brindaba mayor informacion relevante e importante para nuestro trabajo. Era la que mas calzaba con lo que necesitabamos y la cual se ajustaba a uestras futuras proyecciones. La idea es analizar la base desde distintas secciones como por ejemplo en mi casa, desde el lado de los envolotrios  y contendeores de comida plasticos, para asi luego detectar las distintas leyes y restriccciones que se han ido implementando tanto en nuestro pais como en el mundo. 
+**Base de datos utilizada** La base de datos utilizada para esta entrega fue la que utilizo Blanca Ward en la entrega pasada. Ella se encrago de limpirala y ordenarla. Decidimos utilizar esta ya que era la que brindaba mayor informacion relevante e importante para nuestro trabajo. Era la que mas calzaba con lo que necesitabamos y la cual se ajustaba a uestras futuras proyecciones. La idea es analizar la base desde distintas secciones como por ejemplo en mi caso, desde el lado de los envolotrios  y contendeores de comida plasticos, para asi luego detectar las distintas leyes y restriccciones que se han ido implementando tanto en nuestro pais como en el mundo. 
 
 Ahora comenzare a decribir todos los pasos realizados con una breve explicación: 
 # **Paso 1 Importar bibliotecas necesarias:** 
