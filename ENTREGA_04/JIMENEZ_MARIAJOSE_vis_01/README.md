@@ -78,7 +78,7 @@ chart_bags
 Aquí es importante haber ejecutado correctamente todas las celdas previas, ya que de lo contrario no se descargará la visualización en formato html.
 Y tras ello, con chart_bags, se mostrará la visualización y al costado derecho hay una especie de botón o tres puntos, que nos permite descargar el gráfico en png. (Pero en mi caso particular, al ser interactivo el gráfico cuando se descarga en este tipo de extensión o tipo de archivo se pierde la función de mostrar los porcentajes exactos de emisón de cada región.)
 
-# **Ejemplos sobre preguntas que se pueden responder su base de datos limpia**
+# **Ejemplos sobre preguntas que se pueden responder en la visualización**
 
 1. ¿Qué regiones emiten mayor cantidad de bolsas de basura?
 2. ¿Existen una relación entre los proyectos de leyes para disminuir la emisón de bolsas y su producción?
