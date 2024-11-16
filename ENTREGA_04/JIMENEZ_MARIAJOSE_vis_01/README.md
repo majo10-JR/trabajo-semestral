@@ -1,5 +1,6 @@
 # Limpieza de datos
 Nombre: María José Jiménez
+
 **Base de datos utilizada**: La base de datos que decidí utilizar fue la que limpió mi compañera Blanca para la Entrega 02, que si bien es bastante sencilla, fue la consideré y que en realidad decidimos en conjunto como grupo, ya que es la que más aporta información para analizar y relacionar con las iniciativas, proyectos y leyes que se han implementado y propuesto, tanto en nuestro país como en el mundo, para disminuir en la emisión de plástico en general, y en mi caso de las bolsas de plástico que se registraron en 2019.
 
 Por lo mismo la base que usé, me permite entrelazas de mejor forma la información y la demostración de los datos de la visualización atómica, para el proyecto en general y la crónica, en comparación por ejemplo con la base de datos que yo limpié previamente, que compara el PIB de los países según la emisión general de plásticos en 2019.
