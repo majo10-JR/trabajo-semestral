@@ -7,43 +7,43 @@ A pesar de que se ve como una base simple y sencilla, como grupo consideramos qu
 
 En cuanto a la explicación del procesamiento para crear la visualización, lo explicaré por pasos para facilitar el entendimiento
 
-#Paso 1: Importar las bibliotecas necesarias:
+# Paso 1: Importar las bibliotecas necesarias:
 El primer paso para poder partir el proceso de visualización, fue importar as bibliotecas que iba a usar para poder trabajar en Google Colab, en este caso pandas y altair. 
 
 import pandas as pd import altair as alt
 
-#Paso 2: Cargar la base de datos a utilizar en formato CSV
+# Paso 2: Cargar la base de datos a utilizar en formato CSV
 Continuando, decidí usar mi base de datos de la entrega dos, la cual se enfoca en la emisiones de plásticos a los océanos, en distinas regiones y de distintos tipos de plásticos y productos.
 
 data = pd.read_csv('/content/Basura-oceanos-limpio (1).csv') data
 
-#Paso 3: Limpiar y procesar los datos
+# Paso 3: Limpiar y procesar los datos
 En este paso, como elegí mostrar en la visualización atómica la comparación entre emisión de botellas de plástico por regiones y botellas de vidrio por regiones, decidí eliminar las demás columnas con otros productos de plástico.
 
 Eliminar columnas que no aportan valor a la visualización Aquí se deben escribir los números de cada fila a eliminar, exceptuando claramente el número de fila con el que quiero realizar la visualización, que en este caso es el número 8 y otro el nimero 11, que pertenece a las botellas de plástico y de vidrio. datos_filtrados_1 = data.drop([0, 1, 2, 3, 4, 5, 6, 7])
 
 Y luego de ello, trasponer los datos que estaban en las filas por las columnas Transponemos los datos para usar las filas como columnas datos_filtrados_1 = datos_filtrados_1.transpose()
 
-#Paso 4: Eliminar filas que no aportan a la visualización
+# Paso 4: Eliminar filas que no aportan a la visualización
 Luego, hay que borrar las cosas extras que tiene la tabla y que no incorporaremos en el gráfico.
 
 Aquí eliminamos la fila "Unnamed" y los titulos, extras de la base de datos. datos_filtrados_1 = datos_filtrados_1.drop(datos_filtrados_1.index[:2])
 
-#Paso 5: Renombramos la columna región y la que corresponde a los porcentajes de cada región
+# Paso 5: Renombramos la columna región y la que corresponde a los porcentajes de cada región
 datos_filtrados_1 = datos_filtrados_1.reset_index() datos_filtrados_1.columns = ['Region', 'Porcentaje']
 
 datos_filtrados_1
 
-#Paso 6: Crear gráfico de barras para emisiones de bolsas de plástico
+# Paso 6: Crear gráfico de barras para emisiones de bolsas de plástico
 utilicé la función chart para crear esta tipo de gráfico, que a diferencia de otros es interactivo, ya que al pulsar sobre cada barra se muestran los porcentajes de emisión correspondientes.
 
 chart_bags = alt.Chart(datos_filtrados_1).mark_bar(color='lightgreen').encode( x=alt.X('Region', title='Regiones'), y=alt.Y('Porcentaje', title='Porcentaje de Emisiones de Bolsas de Plástico'), tooltip=['Region', 'Porcentaje'] ).properties( title='Porcentaje de Emisiones de Bolsas de Plástico por Región', width=500, height=400 )
 
-#Paso 7: Mostrar el gráfico visualizado, guardar y descargarlo
+# Paso 7: Mostrar el gráfico visualizado, guardar y descargarlo
 Mostrar el gráfico
 chart_bags
 
-Para exportar el grafico importamos la libreria "files"
+# Para exportar el grafico importamos la libreria "files"
 from google.colab import files import altair as alt
 
 Guardar chart as an HTML file
@@ -56,8 +56,6 @@ Mostrar un mensaje indicando que el archivo ha sido creado
 print("El gráfico se ha guardado como 'chart_bags.html'. Abrelo en un navegador para visualizarlo.")
 
 chart_bags
-
-Aquí es importante haber ejecutado correctamente todas las celdas previas, ya que de lo contrario no se descargará la visualización en formato html. Y tras ello, con chart_bags, se mostrará la visualización y al costado derecho hay una especie de botón o tres puntos, que nos permite descargar el gráfico en png. (Pero en mi caso particular, al ser interactivo el gráfico cuando se descarga en este tipo de extensión o tipo de archivo se pierde la función de mostrar los porcentajes exactos de emisón de cada región.)
 
 #Ejemplos sobre preguntas que se pueden responder en la visualización
 ¿Qué regiones emiten mayor cantidad de botellas de plástico y de vidrio?
