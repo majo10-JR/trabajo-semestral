@@ -27,5 +27,5 @@ Con estos datos se busca medir los diferentes plásticos que podemos encontrar e
   </tr>
 </table>
 
-Observaciones: Si bien la base de datos se ve bastante sencilla, esta nos aporta harta información para poder comparar y ver si efectivamnet las leyes e iniciativas que se han realizado en Chile y en otros países, para así disminuir el consumo de bolsas plásticas que finalmente llegan a los océanos.
+**Observaciones:** Si bien la base de datos se ve bastante sencilla, esta nos aporta harta información para poder comparar y ver si efectivamnet las leyes e iniciativas que se han realizado en Chile y en otros países, para así disminuir el consumo de bolsas plásticas que finalmente llegan a los océanos.
 
