@@ -16,8 +16,5 @@ Comparando ambas situaciones con Chile se puede observar desafíos similares de 
 Surge la reflexión en base a todo esto que a pesar de que existan leyes y regulaciones el problema sigue existiendo y es por eso que la regulación efectiva del uso de estos productos no solo requiere cambios legales si no que se tiene que implementar una transformación cultural que promueva prácticas de un consumo más responsable. 
 
 
-![foto grafico](visualización_silva_1.png)
-
-![foto grafico](visualización_silva_2.png)
 
 
