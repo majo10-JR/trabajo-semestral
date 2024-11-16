@@ -1,77 +1,21 @@
-# Limpieza de datos
-Nombre: Victoria Silva
+Vivimos en un mundo donde cada vez se consume de manera más rápida. El impacto medio ambiental de los envoltorios y los contendores de comida está alcanzando niveles preocupantes. Es muy común vivir rodeados de estos dos productos, pues siempre están presentes, lo que es grave, pues nadie le toma el peso a la situación. 
 
-El tema de buscar bases de datos se nos hizo muy díficil, pues creíamos que nuestro tema iba a contar con mucha información disponible, pero no fue así, la infromación que existia era vaga y sin analísis adecuados para lo que el trabajo requiria. 
+Dentro de la región de Asia Oriental y el Pacifico encontramos países como China, Japón y Filipinas, naciones que se enfrenan a problemas medio ambientales diariamente. Activistas de Greenpeace desde el 20212 que comenzaron a realizar auditorías de residuos enfocándose en como los envoltorios específicamente invaden las aguas de la Bahía de Manila. Han logrado reunir a personas para limpiar pero no han tenido muchos resultados ya que el problema resiste hasta el día de hoy. 
+(https://www.greenpeace.org/philippines/press/863/plastic-regulation-its-time-has-come/)
 
-Sin embargo, logramos encontrar ciertas bases de datos que brindaban información importante y relevante para lo que necesitabamos. Aquellas tablas las encontre en Our World In Data, pagína web la cual contiene variedad de infromación sobre el tema. En mi caso tuve que agrupar dos tablas con diferentes datos, para así crear una completa. Esto lo hice a traves de Google Colab, aplicando la **Función Merge**
+Por otro lado India implemento una prohibición de ciertos envoltorios con el objetivo de reducir su impacto ambiental, incluyendo multas y restricciones para los fabricantes. 
+(https://www.weforum.org/stories/2018/06/how-the-world-is-fighting-plastic-pollution/)
 
-**df_merge_2 = pd.merge(df_3, df_4, on=['Entity', 'Year', 'Code'], how='inner')
-df_merge_2**
+De acuerdo al tema de los contendores, tal como muestra el grafico, África del Norte y Medio Oriente son los que lideran el mayor uso, y es debido a la cultura existente sobre el  delivery y como almacenan la comida. Las políticas ambientales de aquellos sectores no han logrado establecer regulaciones específicas sobre esta sección en especial y es por eso que no se han visto grandes cambios respecto al problema.
 
-Luego descargue aquella base de datos para así poder comenzar a limpiarla, **mediante la función**
+Actualmente existen varias alternativas que funcionan para remplazar los contendores de plástico, como por ejemplo que sean creados con materiales de origen orgánico: pulpa de madera, coco, palma, guadua, bambú, entre otros. Son hartas las opciones que existen para evitar el plástico, es solo cosa de tiempo para que se vaya masificando el uso de aquellas para que así exista una baja visible respecto al uso de contendores de plástico. 
 
-**df_merge_2.to_csv("Residuos_plasticos_mal_gestionados.csv", encoding='utf-8', index=False)
-from google.colab import files
-files.download("Plasticos_emitidos_al_oceano.csv")**
+Comparando ambas situaciones con Chile se puede observar desafíos similares de acuerdo al compromiso del tema de las regulaciones. De hecho el país se ha considerado como un líder dentro de América Latina respecto a esta temática. En 2021 se implementó la ley N 21.368 que regula la entregas de plástico de un solo uso, limitando así el tema de los envoltorios y contendores  que vemos presentes todos los días. 
+(https://www.bcn.cl/leychile/navegar?idNorma=1163603)
 
-Ya en Google Colab con mi base de datos lista comence importando la líbreria que use para leer y limpiar: **import pandas as pd**
-
-Despues para que me apreciera la tabla con la base de datos ocupe La funcion **"read_csv" lee la info del database y la guarda en una variable**
-**data_base = pd.read_csv("Residuos Plasticos.csv", sep=";")
-data_base**
-
-Luego, comence a ver los cambios y limpiezas que queria realizar en mi base de datos. En primer lugar decidi traducir las columnas. Parti con la columna "Entity" para que se traduciera a "País". Aquello lo hice con la función: 
-
-**la columna "Etnity" pasa a ser "País"
-data_base.rename(columns={"Entity": "País"}, inplace=True)
-data_base**
-
-Despues hice lo mismo con la columna "Year" que la cambie a "Año" a traves de la función: 
-
-**la columna "Year" pasa a ser "Año"
-data_base.rename(columns={"Year": "Año"}, inplace=True)
-data_base**
-
-Siguiendo con la otra columna "Share of global mismanaged plastic waste", paso a ser "Proporción de residuos plásticos mal gestionados a nivel mundial" a traves de la función: 
-
-**la columna "Share of global mismanaged plastic waste" pasa a ser "Proporción de residuos plásticos mal gestionados a nivel mundial"
-data_base.rename(columns={"Share of global mismanaged plastic waste": "Proporción de residuos plásticos mal gestionados a nivel mundial"}, inplace=True)
-data_base**
-
-Ya con la última columna "Probability of plastic being emitted to ocean" la tarduci a "Probabilidad de que el plástico se emita al océano", con la misma función: 
-
-**la columna "Probability of plastic being emitted to ocean" pasa a ser "Probabilidad de que el plástico se emita al océano"
-data_base.rename(columns={"Probability of plastic being emitted to ocean": "Probabilidad de que el plástico se emita al océano"}, inplace=True)
-data_base**
+Surge la reflexión en base a todo esto que a pesar de que existan leyes y regulaciones el problema sigue existiendo y es por eso que la regulación efectiva del uso de estos productos no solo requiere cambios legales si no que se tiene que implementar una transformación cultural que promueva prácticas de un consumo más responsable. 
 
 
-Despues quise eliminar una columna, que no aportaba y no me servia de nada dentro de la base de datos. Aquella columna era "Code" que me daba los codígos de cada país. Esto lo hice a traves de la función: 
-
-**La funcion "drop" con "axis=1" elimina la columna que se le entrega
-data_base=data_base.drop("Code", axis=1)
-data_base**
-
-Por último quise revisar y corroborar que mi tabla estuviera completa sin datos en blanco, es decir que no existiera nada en nulo. Aquello lo hice aplicando la función: 
-
-**La funcion "isnull().sum()" entrega el numero de datos nulos en cada columna
-data_base.isnull().sum()**
-
-Esa función permite ver el número de datos nulos en cada columna. Mi base de datos estaba completa, contaba con información en cada país, asi que finalmente en cada columna me dijo que no habian datos nulos, marcandolos con un 0. 
 
 
-# Lista de las fuentes de datos utilizadas
-Para mi base de datos, use la pagina Our World in Data: 
-https://ourworldindata.org/. De aquella página, ponia en el buscador la infromación que necesitaba y me daba distintos gráficos y tablas relacionadas al tema. Como ya mencione anteriormente yo use dos bases de datos distintas, que luego uni para crear una sola: 
-- https://ourworldindata.org/ocean-plastics
-- https://ourworldindata.org/grapher/share-of-global-mismanaged-plastic-waste?tab=table
 
-Esos links llevan directo a las tablas de manera individual. 
-
-Se nos hizo muy dificil el hecho de encontrar bases de datos por lo que por eso tuvimos que acudir a mezclar información. 
-
-# Ejemplos sobre preguntas que se pueden responder su base de datos limpia
-
-1. ¿Qué países tienen el mayor porcentaje de residuos plásticos mal gestioandos?
-2. ¿Qué países tienen un alto porcentaje de residuos plásticos mal gestionados pero un bajo porcentaje de que aquellos terminen ene l océano?
-3. ¿Cómo se pueden comparar los niveles de residuos plásticos mal gestioandos en países desarrollados frente a países en desarrollo?
-4. ¿Qué países tienen una probabilidad mayor al 1% de que sus propios reisudos plásticos terminen en el océano?
