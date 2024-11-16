@@ -35,7 +35,7 @@ datos_filtrados_1 = datos_filtrados_1.reset_index() datos_filtrados_1.columns = 
 
 datos_filtrados_1
 
-# Paso 6: Crear gráfico de barras para emisiones de bolsas de plástico
+# Paso 6: Crear gráfico de barras para emisiones de botellas de plástico
 utilicé la función chart para crear esta tipo de gráfico, que a diferencia de otros es interactivo, ya que al pulsar sobre cada barra se muestran los porcentajes de emisión correspondientes.
 
 chart_bags = alt.Chart(datos_filtrados_1).mark_bar(color='lightgreen').encode( x=alt.X('Region', title='Regiones'), y=alt.Y('Porcentaje', title='Porcentaje de Emisiones de Bolsas de Plástico'), tooltip=['Region', 'Porcentaje'] ).properties( title='Porcentaje de Emisiones de Botellas de Plástico por Región', width=500, height=400 )
@@ -55,10 +55,9 @@ files.download('/content/chart_bags.html')
 
 # Mostrar un mensaje indicando que el archivo ha sido creado
 print("El gráfico se ha guardado como 'chart_bags.html'. Abrelo en un navegador para visualizarlo.")
-
 chart_bags
 
-#Ejemplos sobre preguntas que se pueden responder en la visualización
+# Ejemplos sobre preguntas que se pueden responder en la visualización
 ¿Qué regiones emiten mayor cantidad de botellas de plástico y de vidrio?
 ¿Existen una relación entre los proyectos de leyes para disminuir la emisión de botellas de plástico y su producción?
 ¿Existen una relación entre los proyectos de ONG o grupos para disminuir la emisión de botellas de plástico y su producción?
