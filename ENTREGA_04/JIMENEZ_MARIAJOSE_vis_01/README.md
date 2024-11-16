@@ -14,13 +14,13 @@ import pandas as pd
 import altair as alt
 
 # **Paso 2: Cargar la base de datos a utilizar en formato CSV**
-En este caso, decidí utilizar una base de datos limpiada para la entrega 02 por mi compañera Blanca, que me entrega datos comparativos sobre la emisiones de plasticos a los oceanos, en distinas regiones y de distintos tipos de plásticos.
+En este caso, decidí utilizar una base de datos limpiada para la entrega 02 por mi compañera Blanca, que me entrega datos comparativos sobre la emisiones de plásticos a los océanos, en distinas regiones y de distintos tipos de plásticos.
 
 data = pd.read_csv('/content/Basura-oceanos-limpio (1).csv')
 data
 
 # **Paso 3: Limpiar y procesar los datos**
-En este paso, como yo elegí mostrar en la visualización atómica la comparativa entre emsiones de bolsas de plástico por regiones, decidí elimiar las demás columnas con otros productos de plástico.
+En este paso, como yo elegí mostrar en la visualización atómica la comparativa entre emisiones de bolsas de plástico por regiones, decidí elimiar las demás columnas con otros productos de plástico.
 
 Eliminar columnas que no aportan valor a la visualización
 Aquí se deben escribir los números de cada fila a eliminar, exceptuando claramente el numero de fila con el que quiero realizar la visualizaciuión, que en este caso es el numero 4, que pertenece a las bolsas de plástico.
