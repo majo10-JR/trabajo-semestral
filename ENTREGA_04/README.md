@@ -13,5 +13,5 @@ Utilizamos Canva para mostrar los gráficos creados y reflexionar en base a la i
 
 [Link Canva](https://www.canva.com/design/DAGWj13Cras/sEe_QsJbV8Azc9uiCBF-fQ/edit)
 
-[Link Yutube](https://youtu.be/fpvpmOCpkJM)
+[Link Youtube](https://youtu.be/fpvpmOCpkJM)
 
