@@ -15,18 +15,20 @@ A traves de ests datos se busca analizar y evaluar las distintas emsiones propor
 
 - **Variables incorporadas:**        
 
- <table>
+  <table>
   <tr>
     <th>Dimensión</th>
     <th>Descripción</th>
   </tr>
   <tr>
     <td>Regiones</td>
-    <td>Asia Oriental y el Pacífico, Asia del Sur, Latinoamérica y el Caribe, África Subsahariana, Norte de África y Medio Oriente. .</td>
+    <td>Asia Oriental y el Pacífico, Asia del Sur, Latinoamérica y el Caribe, África Subsahariana, Norte de África y Medio Oriente .</td>
   </tr>
   <tr>
   <tr>
-    <th>Producto</th> <td>Envolotorios</td>
+    <th>Productos</th>
+  <tr>
+    <td>Envoltorios</td>
     <td>Cantidad de envoltorios encontradas por región.
   </tr>
 </table>
@@ -39,14 +41,14 @@ A traves de ests datos se busca analizar y evaluar las distintas emsiones propor
   </tr>
   <tr>
     <td>Regiones</td>
-    <td>Asia Oriental y el Pacífico, Asia del Sur, Latinoamérica y el Caribe, África Subsahariana, Norte de África y Medio Oriente. .</td>
+    <td>Asia Oriental y el Pacífico, Asia del Sur, Latinoamérica y el Caribe, África Subsahariana, Norte de África y Medio Oriente .</td>
   </tr>
   <tr>
   <tr>
     <th>Producto</th>
   <tr>
-    <td>Contendres</td>
-    <td>Cantidad de contenedres encontradas por región.
+    <td>Contenedores</td>
+    <td>Cantidad de contenedores encontradas por región.
   </tr>
 </table>
 
