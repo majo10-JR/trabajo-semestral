@@ -1,16 +1,12 @@
-# Ficha Tecnica 
+# Ficha Técnica 
 
-- **Características de los datos:** Tenemos 5 regiones y 10 variables en esta base de tipo cuantitativos.  
+- **Características de los datos:** Tenemos 5 regiones y 1 variable que es la cantidad de emisiones de bolsas plásticas.
 
 - **Regiones cubiertas**: Asia Oriental y el Pacífico, Asia del Sur, Latinoamérica y el Caribe, África Subsahariana, Norte de África y Medio Oriente.
-- **Productos**: Diversos tipos de productos plásticos utilizados, como tapas de botellas, contenedores de comida, envoltorios, productos relacionados con la pesca, botellas plasticas, bolsas, cuerdas sinteticas, entre otros. 
+- **Productos**: Bolsas de Plástico.
 
 - **Alcance metodológico:** 
-Con estos datos se busca medir los diferentes pásticos que podemos encontrar en los oceanos, para así analizar el impacto de las medidas por parte de ONG, personalizadas sobre estos. Por ejemplo bolsas de basura o bombillas plásticas. Con estos datos, podemos ver que tipo de plastico es el que mas se encuentra depositao en los oceanos, para asi, poder analizar las medidas especificas por plástico. 
-
-- **Objetivo**: Evaluar la presencia de productos plásticos en diferentes regiones geográficas, para ver cuales son los que más contaminan. De esa forma, podemos conocer que productos de plástico son los que podemos encontrar depositados en los oceanos, par asi hacer un analisis mas completo sobre las edidas iplementadas tanto por leyes como ONG.
-
-- **Metodología**: Datos numéricos que reflejan la cantidad relativa de ciertos productos plásticos en diversas regiones del mundo.
+Con estos datos se busca medir los diferentes plásticos que podemos encontrar en los océanos, para así poder visualizar ccon estos datos las zonas greográficas que más emiten bolas de plásticas al océano.
 
 - **Variables incorporadas:**        
 
@@ -20,52 +16,15 @@ Con estos datos se busca medir los diferentes pásticos que podemos encontrar en
     <th>Descripción</th>
   </tr>
   <tr>
-    <td>País</td>
-    <td>Nombre del país al que se refieren los datos.</td>
+    <td>Regiones</td>
+    <td>Regiones a las que se refieren los datos presentados.</td>
   </tr>
   <tr>
   <tr>
     <th>Productos</th>
-  </tr>
-  <tr>
-    <td>Tapas de botellas</td>
-    <td>Cantidad de tapas de botellas encontradas por región
-  </tr>
-  <tr>
-    <td>Relacionado con la pesca</td>
-    <td>Cantidad de productos relacionados con la pesca por región
-  </tr>
-  <tr>
-    <td>Peso de pesca</td>
-    <td>Peso de productos plásticos relacionados con la pesca por región
-  </tr>
-  <tr>
-    <td>Contenedores de comida</td>
-    <td>Cantidad de contenedores de comida plásticos por región
-  </tr>
-  <tr>
-    <td>Industrial packaging</td>
-    <td>Cantidad de embalaje industrial por región
-  </tr>
   <tr>
     <td>Bolsas de plástico</td>
-    <td>Cantidad de bolsas de plástico encontradas por región
-  </tr>
-  <tr>
-    <td>Botellas de plástico</td>
-    <td>Cantidad de botellas de plástico encontradas por región 
-  </tr>
-  <tr>
-    <td>Tapas de plástico</td>
-    <td>Cantidad de tapas de plástico encontradas por región
-  <tr>
-    <td>Cuerda sintética</td>
-    <td>Cantidad de cuerdas sintéticas encontradas por región 
-  <tr>
-    <td>Envoltorios</td>
-    <td>Cantidad de envoltorios plásticos por región
+    <td>Cantidad de bolsas de plástico encontradas por región.
   </tr>
 </table>
 
-                 
-- **En cuanto a las observaciones**, si bien es bastante sencilla la base de datos, nos sirve para identificar a nivel global la cantidad de plasticos emitidos por cada pais. Con un análisis de los plásticos que más contaminan, podemos ir comparando que medidas son necesarias, y cúales son las políticas que deben implementarse en cada país, o región para disminuir la contaminación de estos plásticos. Es por eso que con estos pocos datos, podemos contener información importante que clasifica los diferntes tipos de plastico en los oceanos. 
