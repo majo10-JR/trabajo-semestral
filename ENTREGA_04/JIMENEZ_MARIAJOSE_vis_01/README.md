@@ -21,12 +21,12 @@ data
 # **Paso 3: Limpiar y procesar los datos**
 En este paso, como yo elegí mostrar en la visualización atómica la comparativa entre emsiones de bolsas de plástico por regiones, decidí elimiar las demás columnas con otros productos de plástico.
 
-# Eliminar columnas que no aportan valor a la visualización
+Eliminar columnas que no aportan valor a la visualización
 Aquí se deben escribir los números de cada fila a eliminar, exceptuando claramente el numero de fila con el que quiero realizar la visualizaciuión, que en este caso es el numero 4, que pertenece a las bolsas de plástico.
 datos_filtrados_1 = data.drop([0, 1, 2, 3, 5, 6, 7, 8])
 
 Y luego de ello, trasponer los datos que estaban en las filas por las columnas
-# Transponemos los datos para usar las filas como columnas
+Transponemos los datos para usar las filas como columnas
 datos_filtrados_1 = datos_filtrados_1.transpose()
 
 # **Paso 4: Eliminar filas que no aportan a la visualización**
@@ -35,8 +35,7 @@ Luego, hay que borrar las cosas extras que tiene la tabla y que no incorporaremo
 
 Aquí eliminamos la fila "Unnamed" y los titulos, extras de la base de datos.
 datos_filtrados_1 = datos_filtrados_1.drop(datos_filtrados_1.index[:2])
-
-# **Paso 5: Renombramos la columna region y la que corresponde a los porcentajes de cada region
+# **Paso 5: Renombramos la columna region y la que corresponde a los porcentajes de cada región**
 
 datos_filtrados_1 = datos_filtrados_1.reset_index()
 datos_filtrados_1.columns = ['Region', 'Porcentaje']
@@ -55,7 +54,7 @@ chart_bags = alt.Chart(datos_filtrados_1).mark_bar(color='lightgreen').encode(
     width=500,
     height=400
 )
-# **Paso 7: Mostrar el gráfico visualizado, guardar y descargarlo
+# **Paso 7: Mostrar el gráfico visualizado, guardar y descargarlo**
 # Mostrar el gráfico
 chart_bags
 
@@ -78,7 +77,7 @@ chart_bags
 Aquí es importante haber ejecutado correctamente todas las celdas previas, ya que de lo contrario no se descargará la visualización en formato html.
 Y tras ello, con chart_bags, se mostrará la visualización y al costado derecho hay una especie de botón o tres puntos, que nos permite descargar el gráfico en png. (Pero en mi caso particular, al ser interactivo el gráfico cuando se descargar en este tipo de extensión o tipo de archivo se pierde la función de mostrar los porcentajes exactos de emisón de cada región.)
 
-# Ejemplos sobre preguntas que se pueden responder su base de datos limpia
+# **Ejemplos sobre preguntas que se pueden responder su base de datos limpia**
 
 1. ¿Qué regiones emiten mayor cantidad de bolsas de basura?
 2. ¿Existen una relación entre los proyectos de leyes para disminuir la emisón de bolsas y su producción?
