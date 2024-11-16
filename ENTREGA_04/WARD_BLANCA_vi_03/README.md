@@ -116,10 +116,10 @@ print("El gráfico se ha guardado como 'chart_plastic.html'. Abrelo en un navega
 chart_plastic# 
 
 # Ejemplos sobre preguntas que se pueden responder en la visualización
-- ¿Qué regiones emiten mayor cantidad de botellas de plástico y de vidrio?
 - ¿Existen una relación entre los proyectos de leyes para disminuir la emisión de botellas de plástico y su producción?
 - ¿Existen una relación entre los proyectos de ONG o grupos para disminuir la emisión de botellas de plástico y su producción?
-- ¿Qué regiones emiten más botellas de plástico? 
+- ¿Qué regiones emiten más botellas de plástico?
+- ¿Qué región emite más botellas de vidrio?
 
 
 
