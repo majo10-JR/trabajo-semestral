@@ -1,7 +1,7 @@
 # Limpieza de datos
 Nombre: Blanca Ward
 
-Para esta entrega, decidir usar la misa base de datos de la entrega anterior, pero haciéndole el enfoque en un solo tipo de basura, las botellas plásticas y las botellas de vidrio. 
+Para esta entrega, decidir usar la misma base de datos de la entrega anterior, pero haciéndole el enfoque en un solo tipo de basura, las botellas plásticas y las botellas de vidrio. 
 A pesar de que se ve como una base simple y sencilla, como grupo consideramos que aporta gran información, ya que al poder dividir por región los datos podemos hacer un análisis más completo y detallado de las medidas implementadas por países, no solo en Chile, sino que en diferentes regiones que hayan implementado proyectos grandes. 
 
 
@@ -20,7 +20,8 @@ data = pd.read_csv('/content/Basura-oceanos-limpio (1).csv') data
 # Paso 3: Limpiar y procesar los datos
 En este paso, como elegí mostrar en la visualización atómica la comparación entre emisión de botellas de plástico por regiones y botellas de vidrio por regiones, decidí eliminar las demás columnas con otros productos de plástico.
 
-Eliminar columnas que no aportan valor a la visualización Aquí se deben escribir los números de cada fila a eliminar, exceptuando claramente el número de fila con el que quiero realizar la visualización, que en este caso es el número 8 y otro el nimero 11, que pertenece a las botellas de plástico y de vidrio. datos_filtrados_1 = data.drop([0, 1, 2, 3, 4, 5, 6, 7])
+# Eliminar columnas que no aportan valor a la visualización 
+Aquí se deben escribir los números de cada fila a eliminar, exceptuando claramente el número de fila con el que quiero realizar la visualización, que en este caso es el número 8 y otro el nimero 11, que pertenece a las botellas de plástico y de vidrio. datos_filtrados_1 = data.drop([0, 1, 2, 3, 4, 5, 6, 7])
 
 Y luego de ello, trasponer los datos que estaban en las filas por las columnas Transponemos los datos para usar las filas como columnas datos_filtrados_1 = datos_filtrados_1.transpose()
 
@@ -37,7 +38,7 @@ datos_filtrados_1
 # Paso 6: Crear gráfico de barras para emisiones de bolsas de plástico
 utilicé la función chart para crear esta tipo de gráfico, que a diferencia de otros es interactivo, ya que al pulsar sobre cada barra se muestran los porcentajes de emisión correspondientes.
 
-chart_bags = alt.Chart(datos_filtrados_1).mark_bar(color='lightgreen').encode( x=alt.X('Region', title='Regiones'), y=alt.Y('Porcentaje', title='Porcentaje de Emisiones de Bolsas de Plástico'), tooltip=['Region', 'Porcentaje'] ).properties( title='Porcentaje de Emisiones de Bolsas de Plástico por Región', width=500, height=400 )
+chart_bags = alt.Chart(datos_filtrados_1).mark_bar(color='lightgreen').encode( x=alt.X('Region', title='Regiones'), y=alt.Y('Porcentaje', title='Porcentaje de Emisiones de Bolsas de Plástico'), tooltip=['Region', 'Porcentaje'] ).properties( title='Porcentaje de Emisiones de Botellas de Plástico por Región', width=500, height=400 )
 
 # Paso 7: Mostrar el gráfico visualizado, guardar y descargarlo
 Mostrar el gráfico
@@ -46,13 +47,13 @@ chart_bags
 # Para exportar el grafico importamos la libreria "files"
 from google.colab import files import altair as alt
 
-Guardar chart as an HTML file
+# Guardar chart as an HTML file
 chart_bags.save('/content/chart_bags.html')
 
-Guardar el gráfico como archivo HTML
+# Guardar el gráfico como archivo HTML
 files.download('/content/chart_bags.html')
 
-Mostrar un mensaje indicando que el archivo ha sido creado
+# Mostrar un mensaje indicando que el archivo ha sido creado
 print("El gráfico se ha guardado como 'chart_bags.html'. Abrelo en un navegador para visualizarlo.")
 
 chart_bags
