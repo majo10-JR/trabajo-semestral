@@ -27,8 +27,7 @@ A traves de ests datos se busca analizar y evaluar las distintas emsiones propor
   <tr>
   <tr>
     <th>Producto</th>
-  <tr>
-    <td>Envolotorios</td>
+  <tr>  <td>Envolotorios</td>
     <td>Cantidad de envoltorios encontradas por región.
   </tr>
 </table>
