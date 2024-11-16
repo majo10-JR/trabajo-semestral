@@ -1,7 +1,7 @@
 # Crónica de la emisión de bolsas de plásticos a nivel mundial
 María José Jiménez
 
-Micro-historia: "El desafío de las bolsas plásticas: Leyes, resultados y lecciones globales"
+**"El desafío de las bolsas plásticas: Leyes, resultados y lecciones globales"**
 En 2018, Chile marcó un hito en América Latina al implementar la prohibición de bolsas plásticas en grandes tiendas y supermercados, convirtiéndose en el primer país de la región en tomar una medida de este tipo. La ley, que avanzó gradualmente con una completa implementación en 2020, tuvo un impacto inmediato: la cantidad de bolsas plásticas en circulación comenzó a disminuir, y muchos comercios adoptaron alternativas como las bolsas reutilizables de tela. Sin embargo, ¿realmente solucionó el problema de los desechos plásticos en la región?
 
 A pesar de la prohibición en Chile, las emisiones de bolsas plásticas en Latinoamérica y el Caribe en 2019 aún representaron un 20.1% de las emisiones globales, según datos de CalRecycle. Esto plantea la pregunta: ¿es suficiente prohibir las bolsas plásticas a nivel nacional, o se necesita una acción coordinada en toda la región para generar un verdadero cambio? Países como México y Argentina también han adoptado leyes similares, pero su implementación varía ampliamente, con diferentes grados de eficacia dependiendo de las ciudades y la infraestructura disponible.
@@ -17,3 +17,5 @@ Comparación entre Chile, México, Argentina y California: Destacando tanto las 
 Impacto global de Latinoamérica: Enfatizando cómo, a pesar de los esfuerzos individuales, la región sigue siendo una de las principales fuentes de desechos plásticos.
 Lecciones de California: Refleja cómo, incluso con leyes de prohibición, el aumento de desechos sigue siendo un problema sin un cambio de comportamiento adecuado.
 Llamado a la acción regional: Enfatizando la necesidad de políticas coordinadas y un cambio de mentalidad en los consumidores.
+
+[tortuga](torturga.jpeg.jpg)
