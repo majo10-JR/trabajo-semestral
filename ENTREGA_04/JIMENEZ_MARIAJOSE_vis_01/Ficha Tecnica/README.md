@@ -6,8 +6,7 @@
 - **Productos**: Bolsas de Plástico.
 
 - **Alcance metodológico:** 
-Con estos datos se busca medir los diferentes plásticos que podemos encontrar en los océanos, para así poder visualizar ccon estos datos las zonas greográficas que más emiten bolas de plásticas al océano.
-
+Con estos datos se busca medir los diferentes plásticos que podemos encontrar en los océanos según las zonas en las que se emitieron.
 - **Variables incorporadas:**        
 
  <table>
