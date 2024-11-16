@@ -1,77 +1,68 @@
 # Limpieza de datos
-Nombre: Victoria Silva
+Nombre: Blanca Ward
 
-El tema de buscar bases de datos se nos hizo muy díficil, pues creíamos que nuestro tema iba a contar con mucha información disponible, pero no fue así, la infromación que existia era vaga y sin analísis adecuados para lo que el trabajo requiria. 
-
-Sin embargo, logramos encontrar ciertas bases de datos que brindaban información importante y relevante para lo que necesitabamos. Aquellas tablas las encontre en Our World In Data, pagína web la cual contiene variedad de infromación sobre el tema. En mi caso tuve que agrupar dos tablas con diferentes datos, para así crear una completa. Esto lo hice a traves de Google Colab, aplicando la **Función Merge**
-
-**df_merge_2 = pd.merge(df_3, df_4, on=['Entity', 'Year', 'Code'], how='inner')
-df_merge_2**
-
-Luego descargue aquella base de datos para así poder comenzar a limpiarla, **mediante la función**
-
-**df_merge_2.to_csv("Residuos_plasticos_mal_gestionados.csv", encoding='utf-8', index=False)
-from google.colab import files
-files.download("Plasticos_emitidos_al_oceano.csv")**
-
-Ya en Google Colab con mi base de datos lista comence importando la líbreria que use para leer y limpiar: **import pandas as pd**
-
-Despues para que me apreciera la tabla con la base de datos ocupe La funcion **"read_csv" lee la info del database y la guarda en una variable**
-**data_base = pd.read_csv("Residuos Plasticos.csv", sep=";")
-data_base**
-
-Luego, comence a ver los cambios y limpiezas que queria realizar en mi base de datos. En primer lugar decidi traducir las columnas. Parti con la columna "Entity" para que se traduciera a "País". Aquello lo hice con la función: 
-
-**la columna "Etnity" pasa a ser "País"
-data_base.rename(columns={"Entity": "País"}, inplace=True)
-data_base**
-
-Despues hice lo mismo con la columna "Year" que la cambie a "Año" a traves de la función: 
-
-**la columna "Year" pasa a ser "Año"
-data_base.rename(columns={"Year": "Año"}, inplace=True)
-data_base**
-
-Siguiendo con la otra columna "Share of global mismanaged plastic waste", paso a ser "Proporción de residuos plásticos mal gestionados a nivel mundial" a traves de la función: 
-
-**la columna "Share of global mismanaged plastic waste" pasa a ser "Proporción de residuos plásticos mal gestionados a nivel mundial"
-data_base.rename(columns={"Share of global mismanaged plastic waste": "Proporción de residuos plásticos mal gestionados a nivel mundial"}, inplace=True)
-data_base**
-
-Ya con la última columna "Probability of plastic being emitted to ocean" la tarduci a "Probabilidad de que el plástico se emita al océano", con la misma función: 
-
-**la columna "Probability of plastic being emitted to ocean" pasa a ser "Probabilidad de que el plástico se emita al océano"
-data_base.rename(columns={"Probability of plastic being emitted to ocean": "Probabilidad de que el plástico se emita al océano"}, inplace=True)
-data_base**
+Para esta entrega, decidir usar la misa base de datos de la entrega anterior, pero haciéndole el enfoque en un solo tipo de basura, las botellas plásticas y las botellas de vidrio. 
+A pesar de que se ve como una base simple y sencilla, como grupo consideramos que aporta gran información, ya que al poder dividir por región los datos podemos hacer un análisis más completo y detallado de las medidas implementadas por países, no solo en Chile, sino que en diferentes regiones que hayan implementado proyectos grandes. 
 
 
-Despues quise eliminar una columna, que no aportaba y no me servia de nada dentro de la base de datos. Aquella columna era "Code" que me daba los codígos de cada país. Esto lo hice a traves de la función: 
+En cuanto a la explicación del procesamiento para crear la visualización, lo explicaré por pasos para facilitar el entendimiento
 
-**La funcion "drop" con "axis=1" elimina la columna que se le entrega
-data_base=data_base.drop("Code", axis=1)
-data_base**
+#Paso 1: Importar las bibliotecas necesarias:
+El primer paso para poder partir el proceso de visualización, fue importar as bibliotecas que iba a usar para poder trabajar en Google Colab, en este caso pandas y altair. 
 
-Por último quise revisar y corroborar que mi tabla estuviera completa sin datos en blanco, es decir que no existiera nada en nulo. Aquello lo hice aplicando la función: 
+import pandas as pd import altair as alt
 
-**La funcion "isnull().sum()" entrega el numero de datos nulos en cada columna
-data_base.isnull().sum()**
+#Paso 2: Cargar la base de datos a utilizar en formato CSV
+Continuando, decidí usar mi base de datos de la entrega dos, la cual se enfoca en la emisiones de plásticos a los océanos, en distinas regiones y de distintos tipos de plásticos y productos.
 
-Esa función permite ver el número de datos nulos en cada columna. Mi base de datos estaba completa, contaba con información en cada país, asi que finalmente en cada columna me dijo que no habian datos nulos, marcandolos con un 0. 
+data = pd.read_csv('/content/Basura-oceanos-limpio (1).csv') data
+
+#Paso 3: Limpiar y procesar los datos
+En este paso, como elegí mostrar en la visualización atómica la comparación entre emisión de botellas de plástico por regiones y botellas de vidrio por regiones, decidí eliminar las demás columnas con otros productos de plástico.
+
+Eliminar columnas que no aportan valor a la visualización Aquí se deben escribir los números de cada fila a eliminar, exceptuando claramente el número de fila con el que quiero realizar la visualización, que en este caso es el número 8 y otro el nimero 11, que pertenece a las botellas de plástico y de vidrio. datos_filtrados_1 = data.drop([0, 1, 2, 3, 4, 5, 6, 7])
+
+Y luego de ello, trasponer los datos que estaban en las filas por las columnas Transponemos los datos para usar las filas como columnas datos_filtrados_1 = datos_filtrados_1.transpose()
+
+#Paso 4: Eliminar filas que no aportan a la visualización
+Luego, hay que borrar las cosas extras que tiene la tabla y que no incorporaremos en el gráfico.
+
+Aquí eliminamos la fila "Unnamed" y los titulos, extras de la base de datos. datos_filtrados_1 = datos_filtrados_1.drop(datos_filtrados_1.index[:2])
+
+#Paso 5: Renombramos la columna región y la que corresponde a los porcentajes de cada región
+datos_filtrados_1 = datos_filtrados_1.reset_index() datos_filtrados_1.columns = ['Region', 'Porcentaje']
+
+datos_filtrados_1
+
+#Paso 6: Crear gráfico de barras para emisiones de bolsas de plástico
+utilicé la función chart para crear esta tipo de gráfico, que a diferencia de otros es interactivo, ya que al pulsar sobre cada barra se muestran los porcentajes de emisión correspondientes.
+
+chart_bags = alt.Chart(datos_filtrados_1).mark_bar(color='lightgreen').encode( x=alt.X('Region', title='Regiones'), y=alt.Y('Porcentaje', title='Porcentaje de Emisiones de Bolsas de Plástico'), tooltip=['Region', 'Porcentaje'] ).properties( title='Porcentaje de Emisiones de Bolsas de Plástico por Región', width=500, height=400 )
+
+#Paso 7: Mostrar el gráfico visualizado, guardar y descargarlo
+Mostrar el gráfico
+chart_bags
+
+Para exportar el grafico importamos la libreria "files"
+from google.colab import files import altair as alt
+
+Guardar chart as an HTML file
+chart_bags.save('/content/chart_bags.html')
+
+Guardar el gráfico como archivo HTML
+files.download('/content/chart_bags.html')
+
+Mostrar un mensaje indicando que el archivo ha sido creado
+print("El gráfico se ha guardado como 'chart_bags.html'. Abrelo en un navegador para visualizarlo.")
+
+chart_bags
+
+Aquí es importante haber ejecutado correctamente todas las celdas previas, ya que de lo contrario no se descargará la visualización en formato html. Y tras ello, con chart_bags, se mostrará la visualización y al costado derecho hay una especie de botón o tres puntos, que nos permite descargar el gráfico en png. (Pero en mi caso particular, al ser interactivo el gráfico cuando se descarga en este tipo de extensión o tipo de archivo se pierde la función de mostrar los porcentajes exactos de emisón de cada región.)
+
+#Ejemplos sobre preguntas que se pueden responder en la visualización
+¿Qué regiones emiten mayor cantidad de botellas de plástico y de vidrio?
+¿Existen una relación entre los proyectos de leyes para disminuir la emisión de botellas de plástico y su producción?
+¿Existen una relación entre los proyectos de ONG o grupos para disminuir la emisión de botellas de plástico y su producción?
+¿Qué regiones emiten más botellas de plástico? 
 
 
-# Lista de las fuentes de datos utilizadas
-Para mi base de datos, use la pagina Our World in Data: 
-https://ourworldindata.org/. De aquella página, ponia en el buscador la infromación que necesitaba y me daba distintos gráficos y tablas relacionadas al tema. Como ya mencione anteriormente yo use dos bases de datos distintas, que luego uni para crear una sola: 
-- https://ourworldindata.org/ocean-plastics
-- https://ourworldindata.org/grapher/share-of-global-mismanaged-plastic-waste?tab=table
-
-Esos links llevan directo a las tablas de manera individual. 
-
-Se nos hizo muy dificil el hecho de encontrar bases de datos por lo que por eso tuvimos que acudir a mezclar información. 
-
-# Ejemplos sobre preguntas que se pueden responder su base de datos limpia
-
-1. ¿Qué países tienen el mayor porcentaje de residuos plásticos mal gestioandos?
-2. ¿Qué países tienen un alto porcentaje de residuos plásticos mal gestionados pero un bajo porcentaje de que aquellos terminen ene l océano?
-3. ¿Cómo se pueden comparar los niveles de residuos plásticos mal gestioandos en países desarrollados frente a países en desarrollo?
-4. ¿Qué países tienen una probabilidad mayor al 1% de que sus propios reisudos plásticos terminen en el océano?
