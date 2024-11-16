@@ -30,9 +30,8 @@
   </tr>
   <tr>
    
-    </tr>
-    <td>Botellas de plástico</td>
-    <td>Cantidad de botellas de vidrio encontradas por región 
+   <td>Botellas de plástico</td>
+  <td>Cantidad de botellas de vidrio encontradas por región 
   </tr> 
   </tr>
     <td>Botellas de vidrio</td>
