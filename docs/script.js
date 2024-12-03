@@ -11,7 +11,7 @@
                 {"Region": "África del Norte y Medio Oriente", "Porcentaje": 12.3}
             ]
         },
-        "mark": {"type": "bar", "color": "lightgreen"},
+        "mark": {"type": "bar", "color": "#f36b39"},
         "encoding": {
             "x": {"field": "Region", "type": "nominal", "title": "Región"},
             "y": {

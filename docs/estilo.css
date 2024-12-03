@@ -51,60 +51,6 @@ header h1 {
     text-align: center; /* Centra el texto */
     color: white;
 }
-/* Navigation bar */
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #289cbf;
-    padding: 20px 0;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Sections */
-section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-section h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-section p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-/* Specific for charts */
-.chart-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* ONG logos */
-.ong-logos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 30px auto;
-}
-
-.ong-logos img {
-    max-width: 100px;
-    border-radius: 10px;
-}
 
 .faq-item {
     margin: 20px 0;
