@@ -1,5 +1,5 @@
 /* General */
-* {
+•⁠  ⁠{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -92,3 +92,73 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
+.ong-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.ong-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ong-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ong-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.media-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.ong-logo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ong-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
