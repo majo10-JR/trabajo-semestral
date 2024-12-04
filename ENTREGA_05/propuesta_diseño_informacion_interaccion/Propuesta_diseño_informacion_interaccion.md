@@ -1,0 +1,9 @@
+# Propuesta de diseño
+ De acuerdo a la estructura de nuestra webstory se puede ver dividida en 3 actos diferentes
+
+**Acto 1:** Parte de inmediato con una contextualización del problema, se muestra una imagen impactante ilustrando la magnitud de la contaminación por las bolsas plásticas. También se alude a los principales países contaminadores de plástico mostrando un gráfico circular interactivo donde los usuarios pueden ir clickeando para ver las respectivas toneladas de residuos que emite cada uno. Acá, pueden ver qué regiones son las que están más contaminadas por plástico en el mundo, para así ir generando una visión clara del problema. 
+
+**Acto 2:** Luego se detallan las distintas leyes anti bolsas de plásticos de diversos países junto con los impactos que han tenido a lo largo del tiempo desde su implementación. Acá podemos ver la distinción de las leyes y que tan obligatorias son. Esta información va a acompañada de una infografía llamativa visualmente que invita al usuario a analizarla. Se hace énfasis en el caso de Chile y la ley 21.100, ya que esta ha tenido gran impacto internacionalmente, y es importante parar a ver sus impactos siendo nuestro país. 
+
+**Acto 3:** Se presentan iniciativas de ONG para reducir la presencia de bolsas plásticas en los océanos, The Ocean CleanUp, Clean Seas y Plastic Bank, fueron las que decidimos utilizar. Se presenta un video informativo sobre la ONG The Ocean CleanUp, en donde el usuario al navegar por la webstory puede decidir si verlo o no presionando play. 
+Para terminar, se concluye que sí han existido cambios positivos frente a esta problemática gracias a las ONG y las leyes que se han implementado, pero que sigue siendo algo que debe tener continuidad para mejorar lo más posible. También creamos un listado con distintas recomendaciones para reducir el uso de bolsas plásticas. 

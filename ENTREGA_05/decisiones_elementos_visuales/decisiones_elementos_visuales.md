@@ -1,0 +1,2 @@
+# Decisiones elementos visuales
+ De acuerdo a los elementos visuales nuestro logo lo cambiamos y quisimos dejarlo lo más simple posible para poder adaptarlo en diferentes partes. Nuestros colores principales son el azul, representando el océano y el naranjo de contraste como esta contaminación de parte de las bolsas. La tipografía es la misma desde que partimos el trabajo siendo “Montserrat” y “Belleza”, las cuales nos gustan mucho pues se ve ordenado y le da un toque visual atractivo.
