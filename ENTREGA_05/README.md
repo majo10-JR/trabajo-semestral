@@ -110,29 +110,32 @@ En conjunto, todos estos elementos hacen que la comunicación de nuestra webstor
     <td>-<td>
     <td>1<td>
   </tr>
-  <tr>
+ <tr>
     <td>Códigos</td>
     <td>1</td>
-     <td>-</td>
+    <td>-<td>
     <td>-<td>
   </tr>
+ <tr>
     <td>Página</td>
     <td>1</td>
-     <td>-</td>
+    <td>-<td>
     <td>-<td>
   </tr>
+<tr>
     <td>Readme</td>
     <td>-</td>
-     <td>1</td>
+    <td>1<td>
     <td>-<td>
   </tr>
-  <tr>
+<tr>
     <td>Reportaje</td>
     <td>-</td>
     <td>1<td>
     <td>1<td>
   </tr>
- <td>Gráficos</td>
+<tr>
+    <td>Gráficos</td>
     <td>1</td>
     <td>1<td>
     <td>1<td>
