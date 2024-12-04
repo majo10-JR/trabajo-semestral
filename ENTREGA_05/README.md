@@ -3,7 +3,7 @@ Hola somos María José Jiménez, Victoria Silva y Blanca Ward.
 
 [Link Canva](https://www.canva.com/design/DAGXrWkSb0M/tkumv4NQULK679L3uZJ0dg/edit?utm_content=DAGXrWkSb0M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-[Link Youtube](https://youtu.be/fpvpmOCpkJM)
+[Link Youtube](https://youtu.be/Xqrd5nrPFek)
 
 Esta entrega se nos hizo bastante pesada ya que quisimos tener avanzado lo mayor posible para la entrega final. Estuvimos muchos días escribiendo y creando la webstory. Aún faltan ciertas cosas que arreglar, pero sentimos que vamos bien encaminadas.
 
