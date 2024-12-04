@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f0f8ff;
+    background-color: #daf1ef;
     color: #333333;
 }
 
@@ -16,24 +16,27 @@ header {
     background: linear-gradient(to bottom, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.8)), url('https://portal.ucm.cl//content/uploads/bfi_thumb/BOLSA-PLASTICA-UCM-p9q1awriwff8kvm92wtdkrfm5ew1oelj40qt404e3q.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
-    align-items: flex-start;
-    padding-left: 20px;
-    position: relative;
+    flex-direction: row; /* Alinea el logo a la izquierda */
+    align-items: flex-start; /* Alinea los elementos al principio verticalmente */
+    text-align: center;
     color: white;
+    padding-left: 20px; /* Controla la distancia del logo respecto al borde izquierdo */
+    position: relative; /* Esto es para que el título se posicione sobre el header */
 }
 
 /* Contenedor del logo */
 .logo-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
+    flex-direction: column; /* Apila el logo y el título */
+    align-items: flex-start; /* Alinea el logo a la izquierda */
+    margin-bottom: 20px; /* Espacio debajo del logo */
 }
 
+/* Logo */
 .logo {
-    width: 60px;
-    height: auto;
-    margin-bottom: 10px;
+    width: 60px;  /* Ajusta el tamaño del logo */
+    height: auto;  /* Mantiene la proporción */
+    margin-bottom: 10px; /* Espacio debajo del logo */
 }
 
 /* Título */
@@ -41,33 +44,32 @@ header h1 {
     font-family: 'Belleza', sans-serif;
     font-size: 4em;
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    position: absolute; /* Posiciona el título sobre el fondo */
+    top: 50%; /* Centra el título verticalmente */
+    left: 50%; /* Centra el título horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrarlo perfectamente */
+    text-align: center; /* Centra el texto */
     color: white;
 }
 
-/* Contenedor de ONGs */
+
+/* Sección de ONGs */
 .ong-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 20px auto;
-    text-align: center;
-    gap: 40px;
+    gap: 20px;
+    margin: 40px 20px;
 }
 
-/* Elementos de ONGs */
 .ong-item {
-    background-color: #f4f4f4;
+    text-align: center;
     padding: 20px;
-    border-radius: 10px;
     border: 1px solid #289cbf;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     max-width: 600px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .ong-item h2 {
@@ -82,15 +84,14 @@ header h1 {
     color: #333;
 }
 
-/* Botones de ONGs */
 .ong-button {
-    padding: 10px 20px;
     background-color: #289cbf;
     color: white;
     border: none;
+    padding: 10px 20px;
+    font-size: 1em;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1.1em;
     transition: background-color 0.3s ease;
 }
 
@@ -100,17 +101,19 @@ header h1 {
 
 /* FAQ */
 .faq-item {
-    margin: 20px auto;
-    max-width: 800px;
+    margin: 20px 0;
     text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
 }
 
 .faq-question {
     width: 100%;
     background-color: #289cbf;
-    color: white;
+    color: #ffffff;
     border: none;
     padding: 15px;
+    text-align: left;
     font-size: 1.2em;
     cursor: pointer;
     border-radius: 5px;
@@ -139,7 +142,33 @@ footer {
     margin-top: 40px;
 }
 
-/* Contenedor multimedia */
+/* Sección de ONGs (Nueva) */
+.ong-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.ong-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ong-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ong-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
 .media-container {
     display: flex;
     gap: 15px;
@@ -147,22 +176,28 @@ footer {
     margin-top: 15px;
 }
 
-.ong-logo, .ong-image {
+.ong-logo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ong-image {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
+/* Sección de Video */
 .video-container {
     margin-top: 50px;
-    text-align: center;
+    text-align: auto;
 }
 
-/* Botón general */
 .btn {
     display: inline-block;
     background-color: #007bff;
-    color: white;
+    color: #fff;
     padding: 10px 20px;
     text-align: center;
     border-radius: 5px;
@@ -175,15 +210,15 @@ footer {
     background-color: #0056b3;
 }
 
-/* Texto y otros contenedores */
+/* Texto */
 .text-body {
     text-align: justify;
-    margin: 40px;
+    margin: 40px; 
 }
 
 .text-header {
     text-align: center;
-    margin: 40px;
+    margin: 40px; 
 }
 
 .image-body {
@@ -194,8 +229,8 @@ footer {
 
 .image-body-circle {
     width: 80%;
-    padding: 90px;
     text-align: center;
+    padding: 90px;
 }
 
 .video-body {
