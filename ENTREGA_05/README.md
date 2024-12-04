@@ -101,8 +101,8 @@ En conjunto, todos estos elementos hacen que la comunicación de nuestra webstor
   <tr>
     <th>Elemento</th>
     <th>María José</th>
-    <th>Victoria<th>
-    <th>Blanca<th>
+    <th>Victoria</th>
+    <th>Blanca</th>
   </tr>
   <tr>
     <td>Diseño</td>
