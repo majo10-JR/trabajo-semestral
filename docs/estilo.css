@@ -139,8 +139,8 @@ footer {
 }
 
 .video-container {
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 50px;
+    text-align: auto;
 }
 
 .btn {
@@ -159,6 +159,32 @@ footer {
     background-color: #0056b3;
 }
 
+.text-body {
+    text-align: justify;
+    margin: 40px; 
+    border: 50px;
+}
 
+.text-header {
+    text-align: center;
+    margin: 40px; 
+    border: 50px;
+}
 
+.image-body {
+    width: 99%;
+    padding: 5px;
+    text-align: center;
+}
 
+.image-body-circle {
+    width: 80%;
+    text-align: center;
+    padding: 90px;
+}
+
+.video-body {
+    width: 99%;
+    padding: 5px;
+    text-align: center;
+}
