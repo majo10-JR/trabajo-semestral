@@ -92,54 +92,54 @@ Por último, sabemos que a veces la información que proporcionamos puede no que
 
 En conjunto, todos estos elementos hacen que la comunicación de nuestra webstory no sea solo informativa, sino que las personas puedan entretenerse, formar su propia opinión con lo que ven, y de una manera accesible. Cada recurso elegido aporta una dimensión distinta al mensaje que queremos transmitir. 
 
+ <h1>Participación en la creación de la Webstory</h1>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Elemento</th>
+                <th>María José</th>
+                <th>Victoria</th>
+                <th>Blanca</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Diseño</td>
+                <td>-</td>
+                <td>-</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Códigos</td>
+                <td>1</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Página</td>
+                <td>1</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>README.md</td>
+                <td>-</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Reportaje</td>
+                <td>-</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Gráficos</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
 
-# Participación en la creación de la Webstory
-
-
-
- <table>
-  <tr>
-    <th>Elemento</th>
-    <th>María José</th>
-    <th>Victoria</th>
-    <th>Blanca</th>
-  </tr>
-  <tr>
-    <td>Diseño</td>
-    <td>-</td>
-    <td>-<td>
-    <td>1<td>
-  </tr>
- <tr>
-    <td>Códigos</td>
-    <td>1</td>
-    <td>-<td>
-    <td>-<td>
-  </tr>
- <tr>
-    <td>Página</td>
-    <td>1</td>
-    <td>-<td>
-    <td>-<td>
-  </tr>
-<tr>
-    <td>Readme</td>
-    <td>-</td>
-    <td>1<td>
-    <td>-<td>
-  </tr>
-<tr>
-    <td>Reportaje</td>
-    <td>-</td>
-    <td>1<td>
-    <td>1<td>
-  </tr>
-<tr>
-    <td>Gráficos</td>
-    <td>1</td>
-    <td>1<td>
-    <td>1<td>
-  </tr>
 
 
 **Comentario adicional:** Aunque cada integrante se enfocó en áreas específicas, todas estuvimos siempre participando y pendientes del trabajo de las demás, asegurando que la webstory se desarrollara entre todas 
