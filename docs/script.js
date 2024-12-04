@@ -45,3 +45,18 @@ document.querySelectorAll('.faq-question').forEach((button) => {
         }
     });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.ong-button');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            const url = event.target.getAttribute('data-url');
+            if (url) {
+                window.open(url, '_blank');
+            }
+        });
+    });
+});
