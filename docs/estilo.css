@@ -51,8 +51,17 @@ header h1 {
     text-align: center; /* Centra el texto */
     color: white;
 }
-
-
+/* Título */
+header h2 {
+    font-family: 'Belleza', sans-serif; /* Mantiene la fuente */
+    font-size: 1.5em; /* Reduce el tamaño de la fuente */
+    margin: 0;
+    position: absolute; /* Permite posicionar el título */
+    bottom: 10px; /* Posiciona cerca del borde inferior */
+    right: 10px; /* Posiciona cerca del borde derecho */
+    text-align: right; /* Alinea el texto a la derecha */
+    color: white; /* Mantiene el color blanco */
+}
 /* Sección de ONGs */
 .ong-container {
     display: flex;
@@ -98,6 +107,11 @@ header h1 {
 .ong-button:hover {
     background-color: #f36b39;
 }
+
+.link-button {
+    background-color: #f36b39;
+}
+
 
 /* FAQ */
 .faq-item {
