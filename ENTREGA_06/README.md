@@ -75,7 +75,10 @@ https://mma.gob.cl/wp-content/uploads/2018/08/Guia-de-Educacion-Ambiental-y-Resi
  
  Esta sección de preguntas y respuestas interactivas la decidimos usar para así contestar las preguntas típicas que creemos que las personas se hacen al terminar de leer el reportaje. La idea es seguir brindando información que pueda ayudar a reducir esta problemática de parte de los usuarios. Se dan tres recomendaciones para reducir el uso de bolsas plásticas. 
 
-participacion por integrantes 
+**Comentario adicional:** Aunque cada integrante se enfocó en áreas específicas, todas estuvimos siempre participando y pendientes del trabajo de las demás, asegurando que la webstory se desarrollara de manera colaborativa y eficiente.
+
+A continuación, se detalla la participación de cada integrante del equipo en los diferentes elementos de la webstory:
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -172,71 +175,4 @@ En el código realizado en el caso de la visualización de Altair, adjunto en ot
 
 En el caso de las visualizaciones de Flourish, en un principio no entendíamos muy bien como funcionaba, ya que no se representaban de buena forma los datos. Luego de entender como era esta dinámica, agregamos cada base de datos correspondiente para la visualización a crear, donde según los datos que queríamos usar desde la misma aplicación pudimos elegir las variables a utilizar, ya que algunas no nos servían. Tras insertar la base de datos de CSV en Flourish, fue el proceso de escoger la paleta de colores que más se asemejara a la de la webstory que estamos realizando.
 Finalmente, obtuvimos cada visualización y la exportamos con sus respectivos códigos, para luego agregarlas en el archivo HTML.
-
-**Comentario adicional:** Aunque cada integrante se enfocó en áreas específicas, todas estuvimos siempre participando y pendientes del trabajo de las demás, asegurando que la webstory se desarrollara de manera colaborativa y eficiente.
-
-A continuación, se detalla la participación de cada integrante del equipo en los diferentes elementos de la webstory:
-
-
- <h1>Participación en la creación de la Webstory</h1>
-    <table border="1" cellpadding="10" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Elemento</th>
-                <th>María José</th>
-                <th>Victoria</th>
-                <th>Blanca</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Diseño</td>
-                <td>-</td>
-                <td>-</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>Códigos</td>
-                <td>1</td>
-                <td>-</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Página</td>
-                <td>1</td>
-                <td>-</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>README.md</td>
-                <td>-</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Reportaje</td>
-                <td>-</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>Gráficos</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
