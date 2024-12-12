@@ -17,14 +17,14 @@
             "y": {
                 "field": "Porcentaje",
                 "type": "quantitative",
-                "title": "Porcentaje de Emisiones de Bolsas de Plástico"
+                "title": "Porcentaje de Emisiones de Bolsas de Plástico en 2021"
             },
             "tooltip": [
                 {"field": "Region", "type": "nominal"},
                 {"field": "Porcentaje", "type": "quantitative"}
             ]
         },
-        "title": "Porcentaje de Emisiones de Bolsas de Plástico por Región",
+        "title": "Porcentaje de Emisiones de Bolsas de Plástico por Región en 2021",
         "width": 600,
         "height": 400
     };
